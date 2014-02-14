@@ -1,0 +1,32 @@
+{
+  "name": "hubot-cornpatch",
+  "version": "0.0.1",
+  "author": "Darrin Holst",
+  "description": "Makes hubot tell me the special at The Corn Patch",
+  "keywords": [
+    "hubot",
+    "food",
+    "grimes",
+    "corn",
+    "patch"
+  ],
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://github.com/darrinholst/hubot-cornpatch/raw/master/LICENSE"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/darrinholst/hubot-cornpatch.git"
+  },
+  "license": "MIT",
+  "main": "./src/cornpatch",
+  "dependencies": {
+    "hubot": ">= 2.6.0",
+    "request": "2.14.x",
+    "feedparser": "0.16.x",
+    "html-entities": "1.0.x",
+    "dateformat": "1.0.7-1.2.3"
+  }
+}
