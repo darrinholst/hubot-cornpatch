@@ -2,7 +2,9 @@
 #   Return The Corn Patch special of the day
 #
 # Dependencies:
-#   None
+#   "request": "2.14.x",
+#   "feedparser": "0.16.x",
+#   "html-entities": "1.0.x"
 #
 # Configuration:
 #   None
