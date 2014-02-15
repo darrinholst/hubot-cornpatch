@@ -1,7 +1,6 @@
 {Robot, TextMessage} = require('hubot')
 fs                   = require('fs')
 nock                 = require('nock')
-path                 = require('path')
 
 describe('The sweetest hubot script of all time', ->
   robot = null
@@ -33,7 +32,7 @@ describe('The sweetest hubot script of all time', ->
     nock('http://www.facebook.com')
       .get('/feeds/page.php?format=rss20&id=114613095287223')
       .reply(200, (uri, requestBody) ->
-         fs.createReadStream(path.resolve(path.join('spec/fixtures/feed.xml')))
+         fs.createReadStream('spec/fixtures/feed.xml')
       )
 
     adapter.on('send', (envelope, strings) ->
