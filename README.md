@@ -3,6 +3,8 @@ Hubot Cornpatch
 
 Allow your Hubot to tell you the special of the day at The Corn Patch.
 
+[![NPM](https://nodei.co/npm/hubot-cornpatch.png)](https://nodei.co/npm/hubot-cornpatch/)
+
 Commands
 --------
 

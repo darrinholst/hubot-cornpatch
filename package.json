@@ -36,13 +36,11 @@
     "hubot": ">= 2.6.0",
     "request": "2.14.x",
     "feedparser": "0.16.x",
-    "html-entities": "1.0.x",
-    "dateformat": "1.0.7-1.2.3"
+    "html-entities": "1.0.x"
   },
 
   "devDependencies": {
     "jasmine-node": "1.13.x",
     "hubot-mock-adapter": "1.0.x"
   }
-
 }

@@ -39,3 +39,4 @@ describe("The sweetest hubot script of all time", ->
     adapter.receive(textMessage)
   )
 )
+
