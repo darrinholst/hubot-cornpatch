@@ -41,6 +41,7 @@
 
   "devDependencies": {
     "jasmine-node": "1.13.x",
-    "hubot-mock-adapter": "1.0.x"
+    "hubot-mock-adapter": "1.0.x",
+    "nock": "0.27.x"
   }
 }
