@@ -36,7 +36,7 @@ describe('The sweetest hubot script of all time', ->
       )
 
     adapter.on('send', (envelope, strings) ->
-      expect(strings).toEqual(["Saturday: Today's lunch special is fried chicken, 11-4."])
+      expect(strings).toEqual(["Saturday: Today's special is fried chicken, 11-4."])
       done()
     )
 

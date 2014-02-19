@@ -48,7 +48,7 @@ getTheSpecials = (callback) ->
   feedparser.on('readable', ->
     while item = @read()
       for line in item.description.split(/<br *\/>/)
-        callback(line.replace(/^\s+|\s+$/g, ""), WEEKDAYS[item.meta.date.getDay()]) if line.match(/lunch.*special/i)
+        callback(line.replace(/^\s+|\s+$/g, ""), WEEKDAYS[item.meta.date.getDay()]) if line.match(/special/i)
   )
 
 module.exports = (robot) ->
